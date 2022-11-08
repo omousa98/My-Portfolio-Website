@@ -7,4 +7,6 @@ The website is to showcase my work that I have made and to allow people to visit
 
 #GIF
 
+![GIF of my portfolio](https://github.com/omousa98/My-Portfolio-Website/blob/main/assets/images/portfolio.gif?raw=true)
+
 #URL
