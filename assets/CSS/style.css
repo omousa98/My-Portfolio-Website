@@ -16,6 +16,7 @@ body{
 
 }
 
+/* Header Section */
 header {
     padding: 15px 6% 15px 0;
     display: flex;
@@ -94,6 +95,7 @@ nav a:hover {
     left: 75%;
 }
 
+/* Body Section */
 main {
     display: block;
     max-width: 88%;
@@ -134,6 +136,7 @@ main {
     margin-bottom: 20px;
 }
 
+/* Flex Section */
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -166,6 +169,18 @@ main {
     padding: 0 0 10px -0;
 }
 
+.flex-item div {
+    background-size: var(--secondary-color);
+    padding-right: 8px 10px;
+    
+}
+
+.flex-item:hover {
+    transition: all 0.5s;
+    background-blend-mode: normal;
+}
+
+/* Main Section*/
 .surf-report{
     background-image: url(/assets/images/02-portfolio-4.jpg);
 }
@@ -186,23 +201,12 @@ main {
     background-image: url(/assets/images/02-run-buddy.jpg);
 }
 
-.flex-item div {
-    background-size: var(--secondary-color);
-    padding-right: 8px 10px;
-    
-}
-
 h3 {
     background-color: var(--secondary-color);
     font-size: 1.75em;
     background-position: center;
     width: 140px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.flex-item:hover {
-    transition: all 0.5s;
-    background-blend-mode: normal;
 }
 
 address {
@@ -221,6 +225,7 @@ address a {
     border-bottom: solid 5px var(--background-color);
 }
 
+/* Contact Section */
 .github {
     max-height: 130px;
 }
@@ -242,6 +247,7 @@ address a:hover {
     transition: all 0.25s ease-in;
 }
 
+/* Media Section */
 @media only screen and (max-width: 1050px){
     header {
         padding: 0px 0px;
