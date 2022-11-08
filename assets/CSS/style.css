@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --background-color: #ffffff;
+    --secondary-color: rgb(59, 60, 127);
+    --text-color: rgb(193, 193, 193);
+}
+
+body{
+    background-color: var(--text-color);
+
+}
+
+header {
+    padding: 15px 6% 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+h1 {
+    font-size: 4em;
+    color: var(--secondary-color);
+    background-color: var(--background-color);
+    background-size: 50px;
+    padding-left: 150px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+header nav {
+    padding: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--background-color);
+    margin-right: 10px;
+    font-size: 2rem;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+    background-image: linear-gradient(var(--background-color) 0%, var(--background-color) 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all 0.25s ease-in;
+}
+
+.hero {
+    background-image: url(/assets/images/Omar\ selfie.jpg);
+    background-size: cover ;
+    background-position: center;
+    min-height: 10px;
+    max-height: 100px;
+    padding: 10% 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.me {
+    border-radius: 9px;
+    border: outset;
+    border-color: var(--background-color);
+}
+
+.hero-text {
+    color: var(--secondary-color);
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--background-color);
+    background-size: cover;
+    border-radius: 9px;
+    position: absolute;
+    top: 45%;
+    left: 75%;
+}
+
+main {
+    display: block;
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+.card {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.card h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid var(--secondary-color);
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.card div {
+    flex: 0 0 77%;
+    display: inline;
+}
+
+.card p {
+    display: block;
+    margin-left: 50px;
+    margin-block-start: 3em;
+    margin-block-end: 3em;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    border: 5px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 0px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-size: 100%;
+    background-blend-mode: soft-light;
+    transition: all 0.5s;
+}
+
+.flex-item:nth-child(1) {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.flex a {
+    background-position: center;
+    padding: 0 0 10px -0;
+}
+
+.surf-report{
+    background-image: url(/assets/images/02-portfolio-4.jpg);
+}
+.led-wall{
+    background-image: url(/assets/images/02-portfolio-1.jpg);
+    background-size: 80%;
+}
+
+.calculator {
+    background-image: url(/assets/images/02-portfolio-2.jpg);
+}
+
+.pastel-puzzles {
+    background-image: url(/assets/images/02-portfolio-3.jpg);
+}
+
+.run-buddy {
+    background-image: url(/assets/images/02-run-buddy.jpg);
+}
+
+.flex-item div {
+    background-size: var(--secondary-color);
+    padding-right: 8px 10px;
+    
+}
+
+h3 {
+    background-color: var(--secondary-color);
+    font-size: 1.75em;
+    background-position: center;
+    width: 140px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flex-item:hover {
+    transition: all 0.5s;
+    background-blend-mode: normal;
+}
+
+address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    font-size: 2vw;
+}
+
+address a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: solid 5px var(--background-color);
+}
+
+.github {
+    max-height: 130px;
+}
+
+.twitter {
+    height: 130px;
+}
+
+.instagram {
+  max-height: 130px;
+}
+
+
+address a:hover {
+    color: var(--secondary-color);
+    background-color: var(--background-color);
+    background-repeat: no-repeat;
+    background-size: 100% 3em;
+    transition: all 0.25s ease-in;
+}
+
+@media only screen and (max-width: 1050px){
+    header {
+        padding: 0px 0px;
+    }
+    header h1 {
+        width: 1000%;
+        text-align: center;
+        padding: initial;
+    }
+    header nav {
+        justify-content: center;
+        width: 1000%;
+    }
+    .hero {
+        margin-top: -10px;
+        min-height: auto;
+        max-height: auto;
+    }
+    .card h2{
+        border-right: none;
+        border-bottom: 4px solid var(--secondary-color);
+        text-align: left;
+        font-size: 2em;
+    }
+    .card {
+        flex-direction: column;
+    }
+    .flex-item:nth-child(1) {
+     min-height: 150px;}
+}
