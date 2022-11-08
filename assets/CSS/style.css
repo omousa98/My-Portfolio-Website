@@ -65,7 +65,7 @@ nav a:hover {
 }
 
 .hero {
-    background-image: url(/assets/images/Omar\ selfie.jpg);
+    background-image: url(https://github.com/omousa98/My-Portfolio-Website/blob/main/assets/images/Omar%20selfie.jpg?raw=true);
     background-size: cover ;
     background-position: center;
     min-height: 10px;
@@ -182,23 +182,23 @@ main {
 
 /* Main Section*/
 .surf-report{
-    background-image: url(/assets/images/02-portfolio-4.jpg);
+    background-image: url(https://github.com/omousa98/My-Portfolio-Website/blob/main/assets/images/02-portfolio-4.jpg?raw=true);
 }
 .led-wall{
-    background-image: url(/assets/images/02-portfolio-1.jpg);
+    background-image: url(https://github.com/omousa98/My-Portfolio-Website/blob/main/assets/images/02-portfolio-1.jpg?raw=true);
     background-size: 80%;
 }
 
 .calculator {
-    background-image: url(/assets/images/02-portfolio-2.jpg);
+    background-image: url(https://github.com/omousa98/My-Portfolio-Website/blob/main/assets/images/02-portfolio-2.jpg?raw=true);
 }
 
 .pastel-puzzles {
-    background-image: url(/assets/images/02-portfolio-3.jpg);
+    background-image: url(https://github.com/omousa98/My-Portfolio-Website/blob/main/assets/images/02-portfolio-3.jpg?raw=true);
 }
 
 .run-buddy {
-    background-image: url(/assets/images/02-run-buddy.jpg);
+    background-image: url(https://github.com/omousa98/My-Portfolio-Website/blob/main/assets/images/02-run-buddy.jpg?raw=true);
 }
 
 h3 {
